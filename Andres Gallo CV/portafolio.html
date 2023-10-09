@@ -25,9 +25,24 @@
         .img {
             height: 300px;
             width: 300px;
-
-
         }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
 
     </style>
     <title>Portafolio Andrés Gallo</title>
@@ -38,12 +53,44 @@
         <ul id="nav">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="portafolio.html">Portafolio</a></li>
-            <li><a href="#estudios">Estudio</a></li>
-            <li><a href="#skill">Habilidades</a></li>
+            <li><a href="index.html#estudios">Estudio</a></li>
+            <li><a href="index.html#skill">Habilidades</a></li>
             <li><a href="https://www.linkedin.com/in/andresgallop/" target="_blank">Linkedin</a></li>
         </ul>
     </nav>
 </header>
+
+<section class="portafolio">
+    <h3>Experiencia Laboral</h3>
+    <table>
+        <tr>
+            <th>Cargo</th>
+            <th>Compañia</th>
+            <th>Actividades</th>
+            <th>Imagen</th>
+        </tr>
+        <tr>
+            <td>Modelador BIM</td>
+            <td>AFRY Chile</td>
+            <td> Desarrollo de Modelos 3D, Documentacion para ingenieria de detalles</td>
+            <td><img src="img/snap_001.png" alt="Proyecto Estructural" width="200px" height="200px"></td>
+        </tr>
+        <tr>
+            <td>Modelador BIM</td>
+            <td>ASTALDI</td>
+            <td> Desarrollo de Modelos 3D, Documentacion para ingenieria de detalles</td>
+            <td><img src="img/p1.jpeg" alt="Proyecto Estructural" width="200px" height="200px"></td>
+        </tr>
+        <tr>
+            <td>Modelador BIM</td>
+            <td>CONSTRUCCIONES OHL</td>
+            <td> Desarrollo de modelos estructurales (Hormigón, Acero), Documentacion para ingenieria de detalles</td>
+            <td><img src="img/snap_019.png" alt="Proyecto Estructural" width="200px" height="200px"></td>
+
+    </table>
+
+</section>
+
 
 </body>
 </html>
