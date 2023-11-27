@@ -1,0 +1,226 @@
+/* Archivo: style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.mainContainer {
+    display: flex;
+}
+
+.menu {
+    background-color: #FFFFFF;
+    width: 20%;
+}
+
+#listaLeft {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+#listaRight {
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #E8EBE4;
+}
+
+.menu li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    border: 1px solid #E8EBE4;
+}
+
+.divLiPerfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    color: #0c0c0c;
+}
+
+.divLiContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    color: #1B1F21;
+}
+
+.iconPerfil {
+    font-size: 1.5rem;
+    color: #BEC1BB;
+}
+
+.spaceTop {
+    white-space: nowrap;
+}
+
+#spaceTopPerfil {
+    white-space: nowrap;
+}
+
+#textPerfilNombre {
+    font-weight: bold;
+}
+
+#textPerfilStatus {
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+#liButtonNewChat {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+#buttonNewChat {
+    background-color: #A491D2;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 80%;
+}
+
+.imgContact {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+#imgPerfil {
+    width: 50px;
+    height: 50px;
+}
+
+.conversationContact {
+    font-size: 0.8rem;
+    max-width: 150px;
+}
+
+#divRight {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#divIconPeople {
+    width: 350px;
+    height: 300px;
+    background-color: #A491D2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iconPeople {
+    width: 300px;
+    height: 300px;
+}
+
+#textPeopleTitle {
+    padding-top: 30px;
+}
+
+#textPeopleDescription {
+    padding-top: 30px;
+}
+
+
+@media (max-width: 576px) {
+    #iconPeople {
+        font-size: 7rem;
+    }
+
+    #divIconPeople {
+        width: 150px;
+        height: 150px;
+    }
+
+    #textPeople {
+        font-size: 1rem;
+    }
+
+    .menu {
+        width: 40%;
+    }
+
+    #textPerfilNombre {
+        font-size: 0.7em;
+        margin-bottom: 0px;
+    }
+
+    .iconPerfil {
+        font-size: 1rem;
+    }
+
+    #imgPerfil {
+        width: 30px;
+        height: 30px;
+    }
+
+    #spaceTopPerfil {
+        white-space: none;
+    }
+
+    #buttonNewChat {
+        font-size: 0.89rem;
+        width: 100%;
+    }
+
+    #liButtonNewChat {
+        padding: 1em;
+    }
+
+    .divLiContact {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .imgContact {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .conversationContact {
+        font-size: 0.8rem;
+        max-width: 80px;
+    }
+
+    #textPeopleTitle {
+        padding-top: 30px;
+    }
+
+    #textPeopleDescription {
+        padding-top: 10px;
+        font-size: 0.8em;
+    }
+}
