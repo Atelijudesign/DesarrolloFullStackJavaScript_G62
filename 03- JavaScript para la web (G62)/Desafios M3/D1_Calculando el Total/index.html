@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    <!--css Normalize-->
+    <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <!--css preload -->
+    <link rel="preload" href="assets/css/style.css" as="style"/>
+    <!--css -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!--favicon-->
+    <link rel="icon" href="assets/img/logo.png">
+    <title>Desafio 1 JS - Calculando el total</title>
+</head>
+<body>
+<main>
+    <article class="card">
+        <div class="card-img">
+            <img src="assets/img/Notebook.png" alt="Laptop Gamer AMD">
+        </div>
+        <div class="card-body">
+            <h1>Laptop Gamer AMD</h1>
+            <input type="number" min="0" name="number" id="cantidadUsuario">
+            <p>Precio: $650000</p>
+            <button id="submit">Calcular Total</button>
+        </div>
+    </article>
+    <article class="totals">
+        <p>Total: <span id="precioTotal">$0</span></p>
+        <p>Cantidad: <span id="cantidadTotal">0</span></p>
+        <div class="clr">
+            <button id="buy">Comprar</button>
+        </div>
+    </article>
+</main>
+</body>
+<!--js-->
+<script src="assets/js/app.js"></script>
+</body>
+</html>
